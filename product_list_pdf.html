@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tolly Product List</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            padding: 2rem;
+            color: #363636;
+            background-color: #f1f1f1;
+            font-family: system-ui, -apple-system, Ubuntu, sans-serif;
+        }
+
+        .bg-colored {
+            color: #fff;
+            padding: 20px;
+            margin-bottom: 24px;
+            border-radius: 12px;
+            background-color: #1c294d;
+            box-shadow: 4px 14px 34px #1c294d11;
+        }
+
+        .flex-between {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        .title-main {
+            font-size: 32px;
+            font-weight: 300;
+        }
+
+        .subtitle-main {
+            font-size: 16px;
+            max-width: 100%;
+            margin-top: 8px;
+            font-weight: 300;
+        }
+
+        .filters {
+            margin: 8px 0;
+            padding: 12px;
+            background-color: #fff;
+            border-radius: 8px;
+            display: inline-block;
+            width: 100%;
+        }
+
+        .filters span {
+            margin-right: 20px;
+            font-size: 14px;
+        }
+
+        .product-list {
+            margin-top: 24px;
+            display: block;
+        }
+
+        .product-card {
+            display: inline-block;
+            vertical-align: top;
+            width: 22%;
+            margin: 1%;
+            padding: 16px;
+            border-radius: 12px;
+            background-color: #fff;
+            box-shadow: 0 1px 3px #ccc;
+            page-break-inside: avoid;
+            break-inside: avoid;
+        }
+
+        .product-card img {
+            width: 100%;
+            height: auto;
+            aspect-ratio: 2/2;
+            object-fit: cover;
+            border-radius: 6px;
+        }
+
+        .product-card h5 {
+            margin: 8px 0 4px;
+        }
+
+        .product-card p {
+            margin: 2px 0;
+            font-size: 14px;
+        }
+
+        footer {
+            margin-top: 24px;
+            padding: 20px;
+            font-size: 14px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="bg-colored">
+        <div class="flex-between">
+            <h1 class="title-main">Product Catalogue List</h1>
+            <div style="text-align: end;">
+                <img width="120" src="./tylo.png" alt="TYLO Logo"> <br>
+                <!-- <h1>Tylo</h1> -->
+                <small>Date: May 29, 2025</small>
+            </div>
+        </div>
+        <h6 class="subtitle-main">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis cumque accusamus ullam vero sint sequi.
+        </h6>
+    </div>
+
+    <div class="filters">
+        <span>Filter:</span>
+        <span>Size - <strong>XL</strong></span>
+        <span>Fabric - <strong>Cotton</strong></span>
+        <span>Weight - <strong>9 LBS</strong></span>
+    </div>
+    <div class="product-list">
+        <div class="product-card">
+            <img src="./product-1.jpg" alt="Product Thumbnail" />
+            <h5>Product Name</h5>
+            <h5>৳ 2,300</h5>
+            <p>Stock: 123</p>
+            <p>SKU: X1234</p>
+            <p><small>Size: M, L, XL, XXL</small></p>
+            <p><small>Color: Red, Green, Blue</small></p>
+        </div>
+        <div class="product-card">
+            <img src="./product-2.jpg" alt="Product Thumbnail" />
+            <h5>Product Name</h5>
+            <h5>৳ 2,300</h5>
+            <p>Stock: 123</p>
+            <p>SKU: X1234</p>
+            <p><small>Size: M, L, XL, XXL</small></p>
+            <p><small>Color: Red, Green, Blue</small></p>
+        </div>
+        <div class="product-card">
+            <img src="./product-3.jpg" alt="Product Thumbnail" />
+            <h5>Product Name</h5>
+            <h5>৳ 2,300</h5>
+            <p>Stock: 123</p>
+            <p>SKU: X1234</p>
+            <p><small>Size: M, L, XL, XXL</small></p>
+            <p><small>Color: Red, Green, Blue</small></p>
+        </div>
+        <div class="product-card">
+            <img src="./product-1.jpg" alt="Product Thumbnail" />
+            <h5>Product Name</h5>
+            <h5>৳ 2,300</h5>
+            <p>Stock: 123</p>
+            <p>SKU: X1234</p>
+            <p><small>Size: M, L, XL, XXL</small></p>
+            <p><small>Color: Red, Green, Blue</small></p>
+        </div>
+        <div class="product-card">
+            <img src="./product-2.jpg" alt="Product Thumbnail" />
+            <h5>Product Name</h5>
+            <h5>৳ 2,300</h5>
+            <p>Stock: 123</p>
+            <p>SKU: X1234</p>
+            <p><small>Size: M, L, XL, XXL</small></p>
+            <p><small>Color: Red, Green, Blue</small></p>
+        </div>
+        <div class="product-card">
+            <img src="./product-3.jpg" alt="Product Thumbnail" />
+            <h5>Product Name</h5>
+            <h5>৳ 2,300</h5>
+            <p>Stock: 123</p>
+            <p>SKU: X1234</p>
+            <p><small>Size: M, L, XL, XXL</small></p>
+            <p><small>Color: Red, Green, Blue</small></p>
+        </div>
+        <div class="product-card">
+            <img src="./product-1.jpg" alt="Product Thumbnail" />
+            <h5>Product Name</h5>
+            <h5>৳ 2,300</h5>
+            <p>Stock: 123</p>
+            <p>SKU: X1234</p>
+            <p><small>Size: M, L, XL, XXL</small></p>
+            <p><small>Color: Red, Green, Blue</small></p>
+        </div>
+        <div class="product-card">
+            <img src="./product-2.jpg" alt="Product Thumbnail" />
+            <h5>Product Name</h5>
+            <h5>৳ 2,300</h5>
+            <p>Stock: 123</p>
+            <p>SKU: X1234</p>
+            <p><small>Size: M, L, XL, XXL</small></p>
+            <p><small>Color: Red, Green, Blue</small></p>
+        </div>
+    </div>
+    <footer class="bg-colored flex-between">
+        <p>Phone: 01987-654321</p>
+        <p>Mail: info@tylo.com.bd</p>
+        <p>Website: www.tylo.com.bd</p>
+    </footer>
+</body>
+
+</html>
